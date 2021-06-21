@@ -68,12 +68,13 @@
 <grid>true</grid>
 <snap_to_grid>true</snap_to_grid>
 <grid_size>10</grid_size>
-<perimeter_step_size>0.05</perimeter_step_size>
+<graph_time_unit>2</graph_time_unit>
+<perimeter_step_size>0.049999997</perimeter_step_size>
 <border_tickmarks>true</border_tickmarks>
 <color_palette>true</color_palette>
 <color_palette_type>0</color_palette_type>
 <color_palette_x>0.0</color_palette_x><color_palette_y>0.0</color_palette_y><color_palette_w>0.0</color_palette_w><color_palette_h>0.0</color_palette_h><minimum_temperature>0.0</minimum_temperature>
 <maximum_temperature>150.0</maximum_temperature>
-<fan_rotation_speed_scale_factor>1.0</fan_rotation_speed_scale_factor><graph_xlabel>Time (hr)</graph_xlabel><graph_ylabel>Temperature (℃)</graph_ylabel><text string="Universidad de Costa Rica-linebreak-Laboratorio de Física General II (FS0311)-linebreak--linebreak-Proyecto final: Calor específico y medición del calor-linebreak--linebreak-Profesor: Mario Chinchilla-linebreak--linebreak-Estudiantes:-linebreak-     -Nicole Piedra Chaves-linebreak-     -Juan Ignacio Hernández Zamora (B93826)" face="Arial" size="18" style="0" color="ffffff" x="0.32200003" y="0.077999994"/>
+<fan_rotation_speed_scale_factor>1.0</fan_rotation_speed_scale_factor><graph_xlabel>Time (s)</graph_xlabel><graph_ylabel>Temperature (℃)</graph_ylabel><text string="Universidad de Costa Rica-linebreak-Laboratorio de Física General II (FS0311)-linebreak--linebreak-Proyecto final: Calor específico y medición del calor-linebreak--linebreak-Profesor: Mario Chinchilla-linebreak--linebreak-Estudiantes:-linebreak-     -Nicole Piedra Chaves (C05996)-linebreak-     -Juan Ignacio Hernández Zamora (B93826)" face="Arial" size="18" style="0" color="ffffff" x="0.32200003" y="0.077999994"/>
 </view>
 </state>
