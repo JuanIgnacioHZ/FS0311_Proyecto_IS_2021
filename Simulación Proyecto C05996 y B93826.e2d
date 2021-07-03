@@ -6,7 +6,7 @@
 <model_width>0.4</model_width>
 <model_height>0.4</model_height>
 <timestep>0.1</timestep>
-<sun_angle>1.5707964</sun_angle>
+<sun_angle>1.7453293</sun_angle>
 <solar_power_density>2000.0</solar_power_density>
 <solar_ray_count>24</solar_ray_count>
 <solar_ray_speed>0.1</solar_ray_speed>
@@ -17,27 +17,10 @@
 <thermal_expansion_coefficient>2.5E-4</thermal_expansion_coefficient>
 <buoyancy_approximation>0</buoyancy_approximation>
 <boundary>
-<temperature_at_border upper="0.0" lower="0.0" left="0.0" right="0.0"/>
+<temperature_at_border upper="20.0" lower="20.0" left="20.0" right="20.0"/>
 <mass_flow_at_border upper="0" lower="0" left="0" right="0"/>
 </boundary>
 <structure>
-<part>
-<rectangle x="0.16000001" y="0.32999998" width="0.04" height="0.04"/><elasticity>1.0</elasticity>
-<thermal_conductivity>1.0</thermal_conductivity>
-<specific_heat>2130.0</specific_heat>
-<density>25.0</density>
-<transmission>0.0</transmission>
-<reflection>0.0</reflection>
-<scattering>false</scattering>
-<scattering_visible>false</scattering_visible>
-<absorption>1.0</absorption>
-<emissivity>0.0</emissivity>
-<temperature>125.0</temperature>
-<constant_temperature>true</constant_temperature>
-<color>ff0000</color>
-<label>Fuente</label>
-<draggable>false</draggable>
-</part>
 <part>
 <rectangle x="0.16000001" y="0.24" width="0.04" height="0.04"/><elasticity>1.0</elasticity>
 <thermal_conductivity>1.0</thermal_conductivity>
@@ -54,12 +37,28 @@
 <uid>0</uid>
 <label>Muestra</label>
 </part>
+<part>
+<ellipse x="0.18000001413747668" y="0.3360000094398856" a="0.015" b="0.03"/><elasticity>1.0</elasticity>
+<thermal_conductivity>1.0</thermal_conductivity>
+<specific_heat>1300.0</specific_heat>
+<density>25.0</density>
+<transmission>0.0</transmission>
+<reflection>0.0</reflection>
+<scattering>false</scattering>
+<scattering_visible>false</scattering_visible>
+<absorption>1.0</absorption>
+<emissivity>0.0</emissivity>
+<temperature>125.0</temperature>
+<constant_temperature>true</constant_temperature>
+<label>Fuente</label>
+<draggable>false</draggable>
+</part>
 </structure>
 <environment>
 </environment>
 <sensor>
 <thermometer attach="0" x="0.192" y="0.256"/>
-<thermometer x="0.18" y="0.3239999"/>
+<thermometer x="0.18" y="0.316"/>
 </sensor>
 <controller>
 </controller>
@@ -75,6 +74,6 @@
 <color_palette_type>0</color_palette_type>
 <color_palette_x>0.0</color_palette_x><color_palette_y>0.0</color_palette_y><color_palette_w>0.0</color_palette_w><color_palette_h>0.0</color_palette_h><minimum_temperature>0.0</minimum_temperature>
 <maximum_temperature>150.0</maximum_temperature>
-<fan_rotation_speed_scale_factor>1.0</fan_rotation_speed_scale_factor><graph_xlabel>Time (s)</graph_xlabel><graph_ylabel>Temperature (℃)</graph_ylabel><text string="Universidad de Costa Rica-linebreak-Laboratorio de Física General II (FS0311)-linebreak--linebreak-Proyecto final: Calor específico y medición del calor-linebreak--linebreak-Profesor: Mario Chinchilla-linebreak--linebreak-Estudiantes:-linebreak-     -Nicole Piedra Chaves (C05996)-linebreak-     -Juan Ignacio Hernández Zamora (B93826)" face="Arial" size="18" style="0" color="ffffff" x="0.32200003" y="0.077999994"/>
+<fan_rotation_speed_scale_factor>1.0</fan_rotation_speed_scale_factor><graph_xlabel>Time (s)</graph_xlabel><graph_ylabel>Temperature (℃)</graph_ylabel><text string="Universidad de Costa Rica-linebreak-Laboratorio de Física General II (FS0311)-linebreak--linebreak-Proyecto final: Calor específico y calorimetría-linebreak--linebreak-Profesor: Mario Chinchilla-linebreak--linebreak-Estudiantes:-linebreak-     -Nicole Piedra Chaves (C05996)-linebreak-     -Juan Ignacio Hernández Zamora (B93826)" face="Arial" size="18" style="0" color="ffffff" x="0.01" y="0.36"/>
 </view>
 </state>
